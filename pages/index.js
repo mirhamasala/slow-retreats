@@ -1,3 +1,5 @@
+import { ArrowNarrowUpIcon } from '@heroicons/react/outline';
+
 import Menu from '../components/Menu';
 import PackingList from '../components/PackingList';
 import Program from '../components/Program';
@@ -25,6 +27,13 @@ export default function Home() {
         <Program />
         <PackingList />
         <Rules />
+        <button
+          type="button"
+          onClick={() => window.scrollTo(0, 0)}
+          className="absolute bottom-20 right-20 h-6 w-6 p-6 border-2 rounded-full text-gray-200"
+        >
+          <ArrowNarrowUpIcon className="absolute inset-1/2 -translate-x-1/2 -translate-y-1/2 h-6" />
+        </button>
       </main>
 
       <footer className="flex items-center justify-center w-full h-12 mt-6 text-gray-100">
