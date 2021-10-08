@@ -15,7 +15,7 @@ class MyDocument extends Document {
             rel="stylesheet"
           />
         </Head>
-        <body className="font-raleway">
+        <body className="font-raleway bg-gray-900">
           <Main />
           <NextScript />
         </body>

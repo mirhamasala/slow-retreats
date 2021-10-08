@@ -2,7 +2,7 @@ import Head from 'next/head';
 
 export default function Home() {
   return (
-    <div className="bg-gray-900">
+    <>
       <Head>
         <title>Slow Retreats</title>
         <link rel="icon" href="/favicon.ico" />
@@ -17,6 +17,6 @@ export default function Home() {
       <footer className="flex items-center justify-center w-full h-12 text-gray-100">
         <span>&copy; {new Date().getFullYear()}</span>
       </footer>
-    </div>
+    </>
   );
 }
