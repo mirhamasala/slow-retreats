@@ -10,6 +10,8 @@ class MyDocument extends Document {
     return (
       <Html>
         <Head>
+          <title>Slow Retreats</title>
+          <link rel="icon" href="/favicon.ico" />
           <link
             href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap"
             rel="stylesheet"

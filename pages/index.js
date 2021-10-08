@@ -1,13 +1,6 @@
-import Head from 'next/head';
-
 export default function Home() {
   return (
     <>
-      <Head>
-        <title>Slow Retreats</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-
       <main className="flex flex-col items-start justify-center w-full min-h-screen px-20 bg-hero bg-cover">
         <h1 className="pt-24 text-6xl font-bold text-gray-200">
           Slow Retreats
