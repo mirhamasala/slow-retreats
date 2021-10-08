@@ -2,7 +2,7 @@ export default function Home() {
   return (
     <>
       <main className="flex flex-col items-start justify-center w-full min-h-screen px-20 bg-hero bg-cover">
-        <h1 className="pt-24 text-6xl font-bold text-gray-200">
+        <h1 className="pt-24 text-6xl text-gray-200 tracking-wide">
           Slow Retreats
         </h1>
       </main>
