@@ -1,5 +1,6 @@
 import sections from '../constants/sections';
 import Menu from '../components/Menu';
+import Rules from '../components/Rules';
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
             </h2>
           </section>
         ))}
+        <Rules />
       </main>
 
       <footer className="flex items-center justify-center w-full h-12 text-gray-100">
