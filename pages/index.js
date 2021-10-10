@@ -1,5 +1,6 @@
 import Menu from '../components/Menu';
 import PackingList from '../components/PackingList';
+import Program from '../components/Program';
 import Rules from '../components/Rules';
 
 export default function Home() {
@@ -13,6 +14,7 @@ export default function Home() {
       </div>
 
       <main className="py-10 px-20 text-lg text-gray-300 leading-relaxed tracking-wide">
+        <Program />
         <PackingList />
         <Rules />
       </main>
