@@ -1,5 +1,7 @@
 import { MinusSmIcon, PlusSmIcon } from '@heroicons/react/outline';
 
+import { packingList } from '../constants/sections';
+
 import Section from './Section';
 
 const packingItems = [
@@ -17,7 +19,7 @@ const leaveHomeItems = [
 
 function PackingList() {
   return (
-    <Section id="packing-list" title="Packing List">
+    <Section id={packingList.id} title={packingList.title}>
       <>
         <h3 className="pb-3 text-2xl">To bring</h3>
         <ul className="mb-6 space-y-2">
