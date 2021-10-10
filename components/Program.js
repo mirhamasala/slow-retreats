@@ -1,3 +1,5 @@
+import { MapIcon } from '@heroicons/react/outline';
+
 import { program } from '../constants/sections';
 
 import Link from './Link';
@@ -6,7 +8,16 @@ import Section from './Section';
 function Program() {
   return (
     <Section id={program.id} title={program.title}>
-      <h3 className="pb-3 text-2xl text-gray-100 tracking-wider capitalize">
+      <a
+        href="https://www.google.com/maps/d/u/0/edit?mid=1Hm6ElwdFUFTdzqfedI4gFBUIpRlDdUAW"
+        target="_blank"
+        rel="noreferrer"
+        className="flex items-center text-gray-100 hover:text-gray-400"
+      >
+        <MapIcon className="h-8 mr-2" />
+        <span>Map</span>
+      </a>
+      <h3 className="pt-6 pb-3 text-2xl text-gray-100 tracking-wider capitalize">
         Daily Schedule
       </h3>
       <ul className="mb-6 space-y-2">
