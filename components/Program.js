@@ -6,7 +6,9 @@ import Section from './Section';
 function Program() {
   return (
     <Section id={program.id} title={program.title}>
-      <h3 className="pb-3 text-2xl capitalize">Daily Schedule</h3>
+      <h3 className="pb-3 text-2xl text-gray-100 tracking-wider capitalize">
+        Daily Schedule
+      </h3>
       <ul className="mb-6 space-y-2">
         <li>
           07:00 – 08:30 Morning pages, gratefulness practice, yoga, meditation
@@ -21,7 +23,9 @@ function Program() {
         <li>18:00 - 20:00 Dinner conversations</li>
         <li>20:00 – 21:00 Fire meditation, reading time</li>
       </ul>
-      <h3 className="pb-3 text-2xl capitalize">Day-Specific Details</h3>
+      <h3 className="pb-3 text-2xl text-gray-100 tracking-wider capitalize">
+        Day-Specific Details
+      </h3>
       <ul className="mb-6 space-y-2">
         <li>
           1: <span>Foz do Lizandro</span> ·{' '}
