@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import sections from '../constants/sections';
+import { sections } from '../constants/sections';
 
 function Menu() {
   return (

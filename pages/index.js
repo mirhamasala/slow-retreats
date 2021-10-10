@@ -1,4 +1,3 @@
-import sections from '../constants/sections';
 import Menu from '../components/Menu';
 import PackingList from '../components/PackingList';
 import Rules from '../components/Rules';
@@ -14,13 +13,6 @@ export default function Home() {
       </div>
 
       <main className="py-10 px-20 text-lg text-gray-300 leading-relaxed tracking-wide">
-        {sections.map((section) => (
-          <section key={section.id} id={`${section.id}`} className="h-screen">
-            <h2 className="pt-10 text-4xl text-gray-200 capitalize tracking-wide">
-              {section.title}
-            </h2>
-          </section>
-        ))}
         <PackingList />
         <Rules />
       </main>
