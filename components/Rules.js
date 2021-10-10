@@ -1,8 +1,10 @@
+import { rules } from '../constants/sections';
+
 import Section from './Section';
 
 function Rules() {
   return (
-    <Section id="rules" title="rules">
+    <Section id={rules.id} title={rules.title}>
       <div className="mb-6 space-y-3">
         <p>
           During our four days together, we'll strengthen the roots within
