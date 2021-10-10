@@ -6,6 +6,9 @@ import Section from './Section';
 
 const packingItems = [
   'swimwear',
+  'sunglasses',
+  'PJs',
+  'comfy lounge wear',
   'warm sweaters',
   'rain coat',
   'walking sneakers or shoes',
@@ -14,6 +17,7 @@ const packingItems = [
 
 const leaveHomeItems = [
   'shampoo, conditioner, body soap',
+  'towels',
   'more than one book',
 ];
 
