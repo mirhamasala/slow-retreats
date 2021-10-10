@@ -1,5 +1,6 @@
 import { program } from '../constants/sections';
 
+import Link from './Link';
 import Section from './Section';
 
 function Program() {
@@ -24,31 +25,31 @@ function Program() {
       <ul className="mb-6 space-y-2">
         <li>
           1: <span>Foz do Lizandro</span> ·{' '}
-          <a href="http://souldoughpizza.com">Souldough</a> ·{' '}
+          <Link href="http://souldoughpizza.com">Souldough</Link> ·{' '}
           <span>
             Introduction to{' '}
-            <a href="https://www.wimhofmethod.com/breathing-exercises">
+            <Link href="https://www.wimhofmethod.com/breathing-exercises">
               Wim Hof Method
-            </a>
+            </Link>
           </span>
         </li>
         <li>
           2: <span>Ericeira</span> ·{' '}
-          <a href="https://goo.gl/maps/nmnN5rwpoYDdo75V7">Naval</a> ·{' '}
+          <Link href="https://goo.gl/maps/nmnN5rwpoYDdo75V7">Naval</Link> ·{' '}
           <span>Flower Workshop</span>
         </li>
         <li>
           3: <span>Coxos</span> ·{' '}
-          <a href="https://g.page/matsusushiandwine?share">
+          <Link href="https://g.page/matsusushiandwine?share">
             Matsu Sushi & Wine
-          </a>{' '}
+          </Link>{' '}
           · <span>Loz Workshop</span>
         </li>
         <li>
           4: <span>Dune walk</span> ·{' '}
-          <a href="https://la-popular-taberna.business.site/">
+          <Link href="https://la-popular-taberna.business.site/">
             Taberna La Popular
-          </a>{' '}
+          </Link>{' '}
           · <span>Silvia Workshop</span>
         </li>
       </ul>
