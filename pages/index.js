@@ -1,5 +1,6 @@
 import sections from '../constants/sections';
 import Menu from '../components/Menu';
+import PackingList from '../components/PackingList';
 import Rules from '../components/Rules';
 
 export default function Home() {
@@ -20,6 +21,7 @@ export default function Home() {
             </h2>
           </section>
         ))}
+        <PackingList />
         <Rules />
       </main>
 
