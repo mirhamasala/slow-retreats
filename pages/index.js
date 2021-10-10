@@ -6,13 +6,13 @@ export default function Home() {
   return (
     <>
       <div className="flex justify-between w-full min-h-screen px-20 bg-hero bg-cover">
-        <h1 className="self-center pt-24 text-6xl text-gray-200 tracking-wide">
+        <h1 className="self-center pt-24 text-6xl tracking-wider">
           Slow Retreats
         </h1>
         <Menu />
       </div>
 
-      <main className="py-10 px-20">
+      <main className="py-10 px-20 text-lg text-gray-300 leading-relaxed tracking-wide">
         {sections.map((section) => (
           <section key={section.id} id={`${section.id}`} className="h-screen">
             <h2 className="pt-10 text-4xl text-gray-200 capitalize tracking-wide">
