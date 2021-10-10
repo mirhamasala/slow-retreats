@@ -28,8 +28,16 @@ function Program() {
       </h3>
       <ul className="mb-6 space-y-2">
         <li>
-          1: <span>Foz do Lizandro</span> ·{' '}
-          <Link href="http://souldoughpizza.com">Souldough</Link> ·{' '}
+          1: <span>São Lorenço</span> ·{' '}
+          <Link href="https://goo.gl/maps/nmnN5rwpoYDdo75V7">Naval</Link> ·{' '}
+          <span>Ericeira</span> · <span>Flower Workshop</span>
+        </li>
+        <li>
+          2: <span>Coxos</span> ·{' '}
+          <Link href="https://g.page/matsusushiandwine?share">
+            Matsu Sushi & Wine
+          </Link>{' '}
+          ·{' '}
           <span>
             Introduction to{' '}
             <Link href="https://www.wimhofmethod.com/breathing-exercises">
@@ -38,16 +46,9 @@ function Program() {
           </span>
         </li>
         <li>
-          2: <span>Ericeira</span> ·{' '}
-          <Link href="https://goo.gl/maps/nmnN5rwpoYDdo75V7">Naval</Link> ·{' '}
-          <span>Flower Workshop</span>
-        </li>
-        <li>
-          3: <span>Coxos</span> ·{' '}
-          <Link href="https://g.page/matsusushiandwine?share">
-            Matsu Sushi & Wine
-          </Link>{' '}
-          · <span>Loz Workshop</span>
+          3: <span>Foz do Lizandro</span> ·{' '}
+          <Link href="http://souldoughpizza.com">Souldough</Link> ·{' '}
+          <span>Loz Workshop</span>
         </li>
         <li>
           4: <span>Dune walk</span> ·{' '}
