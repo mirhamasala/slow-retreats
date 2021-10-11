@@ -7,9 +7,11 @@ export default function Home() {
   return (
     <>
       <div className="flex justify-between min-h-screen w-full px-20 bg-hero bg-cover">
-        <h1 className="self-center pt-24 text-6xl tracking-wider text-gray-300">
-          Slow Retreats
-        </h1>
+        <div className="self-center pt-24 tracking-wider text-gray-300">
+          <h1 className="mb-2 text-6xl">Slow Retreats</h1>
+          <p className="text-xl">Find strength in stillness and connection.</p>
+        </div>
+
         <div className="flex flex-col self-start pt-24 pr-24 text-right">
           <h2 className="mb-5 text-xl font-medium tracking-widest text-gray-900 uppercase whitespace-nowrap">
             Reset Edition
