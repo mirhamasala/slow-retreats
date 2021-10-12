@@ -14,9 +14,6 @@ module.exports = {
         'screen-10': '10vw',
         'screen-20': '20vw',
       },
-      width: {
-        'screen-80': '80vw',
-      },
     },
   },
   variants: {
