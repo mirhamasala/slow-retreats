@@ -17,34 +17,34 @@ function Rules() {
           future.
         </p>
         <p>
-          There's no more wonderful gift than the gift of presence. By being
-          present for others, we also allow our own lives to be immersed in the
-          now. It's a state of being typically quite hidden from us, buried in
-          our busyness, that will now allow to slowly reveal itself.
+          The gift of presence is super powerful. By being present for others,
+          we also allow our own lives to be immersed in the <i>Now</i>. It's a
+          state of being typically quite hidden from us, buried in our busyness,
+          that we'll give space to reveal itself slowly.
         </p>
         <p>
           To be able to step into this flow, we need to nourish our little
           bubble and protect our state of mind. The following rules are designed
-          to helps us do just that.
+          to help us do just that.
         </p>
       </div>
       <ul className="list-decimal space-y-3">
-        <li>We’ll have lunch and dinner together.</li>
         <li>
-          We’ll switch off and hand over our electronic devices (phones, iPads,
-          laptops, etc.)
+          We'll switch off and hand over our electronic devices (phones, iPads,
+          laptops, etc.) on day one of the retreat.
           <p className="mt-2 italic">
-            This means we won't have any outside contact with out friends and
-            family nor will we have access to any work related messages, social
-            media, etc. If you really need to touch base with home, you'll be
-            provided a phone which you can use for a 5-minute call.
+            This means we won't have any contact with our friends and family
+            during the retreat, nor will we have access to any work-related
+            messages, social media, etc. If you need to check in with home, a
+            phone will be available for a 5-minute phone call.
           </p>
         </li>
         <li>
-          We won't make photos. To remember the retreat, we'll take four
-          Polariods each day at a place of our choosing.
+          We won't take photos. To remember the retreat, we'll take four
+          Polaroids each day at a place of our choosing.
         </li>
-        <li>We'll do our best not to complain.</li>
+        <li>We'll have lunch and dinner together.</li>
+        <li>We'll try not to complain.</li>
       </ul>
     </Section>
   );
