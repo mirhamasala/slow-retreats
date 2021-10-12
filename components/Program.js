@@ -55,14 +55,14 @@ function Program() {
             <Link href="https://www.wimhofmethod.com/breathing-exercises">
               Wim Hof Method
             </Link>{' '}
-            · Dinner Laura + Silvia
+            · Dinner Laura + Carly
           </span>
         </li>
         <li>
           <span>
             Foz do Lizandro ·{' '}
             <Link href="http://souldoughpizza.com">Souldough</Link> · Workshop
-            by Laura · Dinner Silvia + Carly
+            by Laura · Dinner Silvia + Mirha
           </span>
         </li>
         <li>
@@ -71,7 +71,7 @@ function Program() {
             <Link href="https://la-popular-taberna.business.site/">
               Taberna La Popular
             </Link>{' '}
-            · Workshop by Silvia · Dinner Carly + Mirha
+            · Workshop by Silvia · Dinner Carly + Silvia
           </span>
         </li>
       </ol>
