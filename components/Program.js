@@ -20,7 +20,7 @@ function Program() {
       <h3 className="pt-4 pb-2 text-xl text-gray-100 tracking-wider capitalize sm:pt-6 sm:pb-3 sm:text-2xl">
         Daily Schedule
       </h3>
-      <ul className="mb-7 space-y-2">
+      <ul className="mb-7 space-y-2 max-w-prose">
         <li>
           07:00 – 08:30 Morning pages, gratefulness practice, yoga,
           meditation—in silence
@@ -37,7 +37,7 @@ function Program() {
       <h3 className="pb-2 text-xl text-gray-100 tracking-wider capitalize sm:pb-3 sm:text-2xl">
         Day-Specific Details
       </h3>
-      <ol className="list-decimal mb-6 space-y-2">
+      <ol className="list-decimal mb-6 space-y-2 max-w-prose">
         <li>
           <span>
             São Lorenço ·{' '}
