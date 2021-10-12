@@ -42,7 +42,7 @@ function Program() {
           <span>
             São Lorenço ·{' '}
             <Link href="https://goo.gl/maps/nmnN5rwpoYDdo75V7">Naval</Link> ·
-            Ericeira · Flower workshop · Dinner Mirha + Laura
+            Ericeira · Flower workshop · Dinner Mirha + Silvia
           </span>
         </li>
         <li>
@@ -62,7 +62,7 @@ function Program() {
           <span>
             Foz do Lizandro ·{' '}
             <Link href="http://souldoughpizza.com">Souldough</Link> · Workshop
-            by Laura · Dinner Silvia + Mirha
+            by Laura · Dinner Silvia + Laura
           </span>
         </li>
         <li>
@@ -71,7 +71,7 @@ function Program() {
             <Link href="https://la-popular-taberna.business.site/">
               Taberna La Popular
             </Link>{' '}
-            · Workshop by Silvia · Dinner Carly + Silvia
+            · Workshop by Silvia · Dinner Carly + Mirha
           </span>
         </li>
       </ol>
