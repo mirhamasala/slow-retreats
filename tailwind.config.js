@@ -8,7 +8,7 @@ module.exports = {
         hero: "linear-gradient(to bottom, rgba(243,244,246,0.4), rgba(17,24,39,0.8)), url('/images/hero.jpg')",
       },
       fontFamily: {
-        raleway: ['"Raleway"'],
+        raleway: 'Raleway',
       },
       spacing: {
         'screen-10': '10vw',
