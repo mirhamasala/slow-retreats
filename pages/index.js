@@ -8,14 +8,16 @@ export default function Home() {
     <>
       <div className="grid min-h-screen width-screen-80 py-12 px-screen-10 bg-hero bg-cover">
         <div className="content-start	sm:content-center grid gap-y-3 sm:gap-y-5 text-right">
-          <h2 className="text-xl font-medium tracking-widest text-gray-900 uppercase whitespace-nowrap">
+          <h2 className="text-lg sm:text-xl font-medium tracking-widest text-gray-900 uppercase whitespace-nowrap">
             Reset Edition
           </h2>
           <Menu />
         </div>
         <div className="tracking-wider text-gray-300">
-          <h1 className="mb-2 text-6xl">Slow Retreats</h1>
-          <p className="text-xl">Find strength in stillness and connection.</p>
+          <h1 className="mb-2 text-4xl sm:text-6xl">Slow Retreats</h1>
+          <p className="text-lg sm:text-xl">
+            Find strength in stillness and connection.
+          </p>
         </div>
       </div>
 
