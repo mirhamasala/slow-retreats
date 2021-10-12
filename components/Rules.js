@@ -5,7 +5,7 @@ import Section from './Section';
 function Rules() {
   return (
     <Section id={rules.id} title={rules.title}>
-      <div className="mb-6 space-y-3">
+      <div className="mb-6 space-y-3 max-w-prose">
         <p>
           During our four days together, we'll strengthen the roots within
           ourselves and our circle with rituals and exercises that will nourish
@@ -28,7 +28,7 @@ function Rules() {
           to help us do just that.
         </p>
       </div>
-      <ul className="list-decimal space-y-3">
+      <ul className="list-decimal space-y-3 max-w-prose">
         <li>
           We'll switch off and hand over our electronic devices (phones, iPads,
           laptops, etc.) on day one of the retreat.
