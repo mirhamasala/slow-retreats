@@ -20,13 +20,21 @@ export default function Home() {
         </div>
       </div>
 
-      <main className="py-10 px-20 text-lg text-gray-300 leading-relaxed tracking-wide">
-        <Program />
-        <PackingList />
-        <Rules />
+      <main className="text-lg text-gray-300 leading-relaxed tracking-wide">
+        <div className="min-h-screen px-20 py-12">
+          <Program />
+        </div>
+        <div className="min-h-screen py-12 bg-gray-800">
+          <div className="px-20">
+            <PackingList />
+          </div>
+        </div>
+        <div className="min-h-screen px-20 py-12">
+          <Rules />
+        </div>
       </main>
 
-      <footer className="flex items-center justify-center w-full h-12 text-gray-100">
+      <footer className="flex items-center justify-center w-full h-12 mt-6 text-gray-100">
         <span>&copy; {new Date().getFullYear()}</span>
       </footer>
     </>
