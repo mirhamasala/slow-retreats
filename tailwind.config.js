@@ -10,6 +10,12 @@ module.exports = {
       fontFamily: {
         raleway: ['"Raleway"'],
       },
+      spacing: {
+        'screen-10': '10vw',
+      },
+      width: {
+        'screen-80': '80vw',
+      },
     },
   },
   variants: {
