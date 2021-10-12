@@ -71,7 +71,7 @@ function Program() {
             <Link href="https://la-popular-taberna.business.site/">
               Taberna La Popular
             </Link>{' '}
-            · Workshop by Silvia · Dinner Carly + Laura
+            · Workshop by Silvia · Dinner Carly + Mirha
           </span>
         </li>
       </ol>
