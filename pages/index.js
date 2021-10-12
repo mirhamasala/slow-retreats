@@ -22,15 +22,15 @@ export default function Home() {
       </div>
 
       <main className="text-normal text-gray-300 leading-relaxed tracking-wide sm:text-lg">
-        <div className="min-h-screen px-screen-10 lg:px-screen-20 py-12">
+        <div className="min-h-screen py-12 px-screen-10 lg:px-screen-20">
           <Program />
         </div>
-        <div className="min-h-screen px-screen-10 lg:px-screen-20 py-12 bg-gray-800">
+        <div className="min-h-screen py-12 px-screen-10 lg:px-screen-20 bg-gray-800">
           <div>
             <PackingList />
           </div>
         </div>
-        <div className="min-h-screen px-screen-10 lg:px-screen-20 py-12">
+        <div className="min-h-screen py-12 px-screen-10 lg:px-screen-20">
           <Rules />
         </div>
       </main>
