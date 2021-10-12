@@ -20,55 +20,61 @@ function Program() {
       <h3 className="pt-6 pb-3 text-2xl text-gray-100 tracking-wider capitalize">
         Daily Schedule
       </h3>
-      <ul className="mb-6 space-y-2">
+      <ul className="mb-7 space-y-2">
         <li>
-          07:00 – 08:30 Morning pages, gratefulness practice, yoga, meditation
-          in silence
+          07:00 – 08:30 Morning pages, gratefulness practice, yoga,
+          meditation—in silence
         </li>
         <li>08:30 – 09:30 Breakfast</li>
-        <li>09:30 – 11:30 Silence walk</li>
+        <li>09:30 – 11:30 Silent beach walk</li>
         <li>12:30 – 14:30 Lunch</li>
-        <li>14:30 – 15:30 Free time</li>
-        <li>15:30 – 17:00 Workshops</li>
+        <li>14:30 – 16:00 Free time, grocery shopping</li>
+        <li>16:00 – 17:00 Workshops, talks</li>
         <li>17:00 – 18:00 Dinner prep</li>
-        <li>18:00 - 20:00 Dinner conversations</li>
+        <li>18:00 - 20:00 Dinner time, conversations</li>
         <li>20:00 – 21:00 Fire meditation, reading time</li>
       </ul>
       <h3 className="pb-3 text-2xl text-gray-100 tracking-wider capitalize">
         Day-Specific Details
       </h3>
-      <ul className="mb-6 space-y-2">
+      <ol className="list-decimal mb-6 space-y-2">
         <li>
-          1: <span>São Lorenço</span> ·{' '}
-          <Link href="https://goo.gl/maps/nmnN5rwpoYDdo75V7">Naval</Link> ·{' '}
-          <span>Ericeira</span> · <span>Flower Workshop</span>
-        </li>
-        <li>
-          2: <span>Coxos</span> ·{' '}
-          <Link href="https://g.page/matsusushiandwine?share">
-            Matsu Sushi & Wine
-          </Link>{' '}
-          ·{' '}
           <span>
-            Introduction to{' '}
-            <Link href="https://www.wimhofmethod.com/breathing-exercises">
-              Wim Hof Method
-            </Link>
+            São Lorenço ·{' '}
+            <Link href="https://goo.gl/maps/nmnN5rwpoYDdo75V7">Naval</Link> ·
+            Ericeira · Flower workshop · Dinner Mirha + Laura
           </span>
         </li>
         <li>
-          3: <span>Foz do Lizandro</span> ·{' '}
-          <Link href="http://souldoughpizza.com">Souldough</Link> ·{' '}
-          <span>Loz Workshop</span>
+          <span>
+            Coxos ·{' '}
+            <Link href="https://g.page/matsusushiandwine?share">
+              Matsu Sushi & Wine
+            </Link>{' '}
+            · Introduction to{' '}
+            <Link href="https://www.wimhofmethod.com/breathing-exercises">
+              Wim Hof Method
+            </Link>{' '}
+            · Dinner Laura + Silvia
+          </span>
         </li>
         <li>
-          4: <span>Dune walk</span> ·{' '}
-          <Link href="https://la-popular-taberna.business.site/">
-            Taberna La Popular
-          </Link>{' '}
-          · <span>Silvia Workshop</span>
+          <span>
+            Foz do Lizandro ·{' '}
+            <Link href="http://souldoughpizza.com">Souldough</Link> · Workshop
+            by Laura · Dinner Silvia + Carly
+          </span>
         </li>
-      </ul>
+        <li>
+          <span>
+            Dune walk ·{' '}
+            <Link href="https://la-popular-taberna.business.site/">
+              Taberna La Popular
+            </Link>{' '}
+            · Workshop by Silvia · Dinner Carly + Laura
+          </span>
+        </li>
+      </ol>
     </Section>
   );
 }

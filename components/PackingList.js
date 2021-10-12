@@ -8,11 +8,13 @@ const packingItems = [
   'swimwear',
   'sunglasses',
   'PJs',
-  'comfy lounge wear',
+  'comfy loungewear',
   'warm sweaters',
-  'rain coat',
+  'house slippers',
+  'raincoat',
   'walking sneakers or shoes',
   'yoga mat',
+  'a book (only Kindle or physical)',
 ];
 
 const leaveHomeItems = [
