@@ -27,7 +27,9 @@ function PackingList() {
   return (
     <Section id={packingList.id} title={packingList.title}>
       <>
-        <h3 className="pb-3 text-2xl text-gray-100 tracking-wider">To bring</h3>
+        <h3 className="pb-2 sm:pb-3 text-xl sm:text-2xl text-gray-100 tracking-wider">
+          To bring
+        </h3>
         <ul className="mb-6 space-y-2">
           {packingItems.map((item, index) => (
             <li key={index} className="flex items-center">
@@ -37,7 +39,7 @@ function PackingList() {
           ))}
         </ul>
 
-        <h3 className="pb-3 text-2xl text-gray-100 tracking-wider">
+        <h3 className="pb-2 sm:pb-3 text-xl sm:text-2xl text-gray-100 tracking-wider">
           Not to bring
         </h3>
         <ul className="space-y-2">

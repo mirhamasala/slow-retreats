@@ -17,7 +17,7 @@ function Program() {
         <MapIcon className="h-8 mr-2" />
         <span>Map</span>
       </a>
-      <h3 className="pt-6 pb-3 text-2xl text-gray-100 tracking-wider capitalize">
+      <h3 className="pt-4 sm:pt-6 pb-2 sm:pb-3 text-xl sm:text-2xl text-gray-100 tracking-wider capitalize">
         Daily Schedule
       </h3>
       <ul className="mb-7 space-y-2">
@@ -34,7 +34,7 @@ function Program() {
         <li>18:00 - 20:00 Dinner time, conversations</li>
         <li>20:00 – 21:00 Fire meditation, reading time</li>
       </ul>
-      <h3 className="pb-3 text-2xl text-gray-100 tracking-wider capitalize">
+      <h3 className="pb-2 sm:pb-3 text-xl sm:text-2xl text-gray-100 tracking-wider capitalize">
         Day-Specific Details
       </h3>
       <ol className="list-decimal mb-6 space-y-2">

@@ -21,7 +21,7 @@ export default function Home() {
         </div>
       </div>
 
-      <main className="text-lg text-gray-300 leading-relaxed tracking-wide">
+      <main className="text-normal sm:text-lg text-gray-300 leading-relaxed tracking-wide">
         <div className="min-h-screen px-screen-10 py-12">
           <Program />
         </div>
