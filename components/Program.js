@@ -2,7 +2,7 @@ import { MapIcon } from '@heroicons/react/outline';
 
 import { program } from '../constants/sections';
 
-import Link from './Link';
+import ExternalLink from './ExternalLink';
 import Section from './Section';
 
 function Program() {
@@ -41,36 +41,40 @@ function Program() {
         <li>
           <span>
             São Lorenço ·{' '}
-            <Link href="https://goo.gl/maps/nmnN5rwpoYDdo75V7">Naval</Link> ·
-            Ericeira · Flower workshop · Dinner Mirha + Silvia
+            <ExternalLink href="https://goo.gl/maps/nmnN5rwpoYDdo75V7">
+              Naval
+            </ExternalLink>{' '}
+            · Ericeira · Flower workshop · Dinner Mirha + Silvia
           </span>
         </li>
         <li>
           <span>
             Coxos ·{' '}
-            <Link href="https://g.page/matsusushiandwine?share">
+            <ExternalLink href="https://g.page/matsusushiandwine?share">
               Matsu Sushi & Wine
-            </Link>{' '}
+            </ExternalLink>{' '}
             · Introduction to{' '}
-            <Link href="https://www.wimhofmethod.com/breathing-exercises">
+            <ExternalLink href="https://www.wimhofmethod.com/breathing-exercises">
               Wim Hof Method
-            </Link>{' '}
+            </ExternalLink>{' '}
             · Dinner Laura + Carly
           </span>
         </li>
         <li>
           <span>
             Foz do Lizandro ·{' '}
-            <Link href="http://souldoughpizza.com">Souldough</Link> · Workshop
-            by Laura · Dinner Silvia + Laura
+            <ExternalLink href="http://souldoughpizza.com">
+              Souldough
+            </ExternalLink>{' '}
+            · Workshop by Laura · Dinner Silvia + Laura
           </span>
         </li>
         <li>
           <span>
             Dune walk ·{' '}
-            <Link href="https://la-popular-taberna.business.site/">
+            <ExternalLink href="https://la-popular-taberna.business.site/">
               Taberna La Popular
-            </Link>{' '}
+            </ExternalLink>{' '}
             · Workshop by Silvia · Dinner Carly + Mirha
           </span>
         </li>
