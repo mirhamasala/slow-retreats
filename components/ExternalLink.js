@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 
-function Link({ href, children }) {
+function ExternalLink({ href, children }) {
   return (
     <a
       href={href}
@@ -13,9 +13,9 @@ function Link({ href, children }) {
   );
 }
 
-Link.propTypes = {
+ExternalLink.propTypes = {
   href: PropTypes.string,
   children: PropTypes.string,
 };
 
-export default Link;
+export default ExternalLink;
