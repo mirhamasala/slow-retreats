@@ -26,8 +26,6 @@ module.exports = {
       const newUtilities = {
         '.smooth-scroll': {
           'scroll-behavior': 'smooth',
-        },
-        '.custom-smooth-scroll': {
           '--scroll-behavior': 'smooth',
           'font-family': '"scroll-behavior: smooth", sans-serif;',
         },
