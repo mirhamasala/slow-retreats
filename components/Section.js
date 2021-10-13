@@ -2,7 +2,7 @@ import PropTypes from 'prop-types';
 
 function Section({ id, title, children }) {
   return (
-    <section id={id}>
+    <section id={id} className="pt-12">
       <h2 className="pb-5 text-2xl text-gray-100 capitalize tracking-wider sm:pb-8 sm:text-4xl">
         {title}
       </h2>
