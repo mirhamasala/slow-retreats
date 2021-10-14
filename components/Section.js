@@ -1,12 +1,19 @@
 import PropTypes from 'prop-types';
 
 function Section({ id, title, children }) {
+  const bgShade = id === 'packing-list' ? '800' : '900';
+
   return (
-    <section id={id} className="pt-12">
-      <h2 className="pb-5 text-2xl text-gray-100 capitalize tracking-wider sm:pb-8 sm:text-4xl">
+    <section
+      id={id}
+      className={`relative min-h-screen pt-7 pb-10 text-normal text-gray-300 leading-relaxed tracking-wide bg-gray-${bgShade} sm:pt-6 sm:pb-12 sm:text-lg`}
+    >
+      <h2
+        className={`sticky top-0 py-3 px-screen-10 text-2xl text-gray-100 capitalize tracking-wider bg-gray-${bgShade} bg-opacity-80 sm:py-6 lg:px-screen-20  sm:text-4xl`}
+      >
         {title}
       </h2>
-      <div>{children}</div>
+      <div className="px-screen-10 lg:px-screen-20">{children}</div>
     </section>
   );
 }
