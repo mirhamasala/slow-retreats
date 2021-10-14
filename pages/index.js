@@ -21,18 +21,10 @@ export default function Home() {
         </div>
       </div>
 
-      <main className="text-normal text-gray-300 leading-relaxed tracking-wide sm:text-lg">
-        <div className="min-h-screen pb-12 px-screen-10 lg:px-screen-20">
-          <Program />
-        </div>
-        <div className="min-h-screen pb-12 px-screen-10 lg:px-screen-20 bg-gray-800">
-          <div>
-            <PackingList />
-          </div>
-        </div>
-        <div className="min-h-screen pb-12 px-screen-10 lg:px-screen-20">
-          <Rules />
-        </div>
+      <main>
+        <Program />
+        <PackingList />
+        <Rules />
       </main>
 
       <footer className="flex items-center justify-center w-full h-12 mt-6 text-gray-100">
