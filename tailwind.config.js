@@ -13,6 +13,7 @@ module.exports = {
         raleway: 'Raleway',
       },
       spacing: {
+        18: '4.5rem',
         'screen-10': '10vw',
         'screen-20': '20vw',
       },
