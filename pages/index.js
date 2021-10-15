@@ -1,12 +1,20 @@
+import { useRef } from 'react';
+
 import Menu from '../components/Menu';
+import NavButton from '../components/NavButton';
 import PackingList from '../components/PackingList';
 import Program from '../components/Program';
 import Rules from '../components/Rules';
 
 export default function Home() {
+  const heroRef = useRef(null);
+
   return (
     <>
-      <div className="grid min-h-screen py-12 px-screen-10 bg-hero bg-cover lg:pl-screen-20">
+      <div
+        ref={heroRef}
+        className="grid min-h-screen py-12 px-screen-10 bg-hero bg-cover lg:pl-screen-20"
+      >
         <div className="content-start grid gap-y-3 text-right sm:content-center sm:gap-y-5">
           <h2 className="text-lg font-medium tracking-widest text-gray-900 uppercase whitespace-nowrap sm:text-xl">
             Reset Edition
@@ -25,6 +33,7 @@ export default function Home() {
         <Program />
         <PackingList />
         <Rules />
+        <NavButton heroInnerRef={heroRef} />
       </main>
 
       <footer className="flex items-center justify-center w-full h-12 mt-6 text-gray-100">
