@@ -1,10 +1,10 @@
 import { useRef } from 'react';
 
-import Menu from '../components/Menu';
-import NavButton from '../components/NavButton';
-import PackingList from '../components/PackingList';
-import Program from '../components/Program';
-import Rules from '../components/Rules';
+import PackingList from '@components/PackingList';
+import NavButton from '@components/NavButton';
+import Program from '@components/Program';
+import Rules from '@components/Rules';
+import Menu from '@components/Menu';
 
 export default function Home() {
   const heroRef = useRef(null);
