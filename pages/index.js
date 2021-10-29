@@ -1,10 +1,11 @@
 import { useRef } from 'react';
 
-import PackingList from '@components/PackingList';
+import ExternalLink from "@components/ExternalLink";
+import Menu from '@components/Menu';
 import NavButton from '@components/NavButton';
+import PackingList from '@components/PackingList';
 import Program from '@components/Program';
 import Rules from '@components/Rules';
-import Menu from '@components/Menu';
 
 export default function Home() {
   const heroRef = useRef(null);
@@ -36,7 +37,8 @@ export default function Home() {
         <NavButton heroInnerRef={heroRef} />
       </main>
 
-      <footer className="flex items-center justify-center w-full h-12 mt-6 text-gray-100">
+      <footer className="flex items-baseline justify-center w-full h-12 mt-6 text-gray-100">
+        <span className="mr-1">By <ExternalLink href="https://www.mirhamasala.com/about">Mirha Masala</ExternalLink></span>
         <span>&copy; {new Date().getFullYear()}</span>
       </footer>
     </>
