@@ -25,7 +25,7 @@ function Program() {
           07:00 – 08:30 Morning pages, gratefulness practice, yoga,
           meditation—in silence
         </li>
-        <li>08:30 – 09:30 Breakfast</li>
+        <li>08:30 – 09:30 Breakfast—in silence</li>
         <li>09:30 – 11:30 Silent beach walk</li>
         <li>12:30 – 14:30 Lunch</li>
         <li>14:30 – 16:00 Free time, grocery shopping</li>
@@ -40,42 +40,42 @@ function Program() {
       <ol className="list-decimal mb-6 space-y-2 max-w-prose">
         <li>
           <span>
-            São Lorenço ·{' '}
-            <ExternalLink href="https://goo.gl/maps/nmnN5rwpoYDdo75V7">
+            São Lorenço ·{" "}
+            <ExternalLink href="https://www.google.com/maps?cid=908569003224039559">
               Naval
-            </ExternalLink>{' '}
+            </ExternalLink>{" "}
             · Ericeira · Flower workshop · Dinner Mirha + Silvia
           </span>
         </li>
         <li>
           <span>
-            Coxos ·{' '}
-            <ExternalLink href="https://g.page/matsusushiandwine?share">
-              Matsu Sushi & Wine
-            </ExternalLink>{' '}
-            · Introduction to{' '}
+            Ribeira D'Ilhas ·{" "}
+            <ExternalLink href="https://www.google.com/maps?cid=19492761283722315">
+              Onegai Sushi Bar
+            </ExternalLink>{" "}
+            · Introduction to{" "}
             <ExternalLink href="https://www.wimhofmethod.com/breathing-exercises">
               Wim Hof Method
-            </ExternalLink>{' '}
+            </ExternalLink>{" "}
             · Dinner Laura + Carly
           </span>
         </li>
         <li>
           <span>
-            Foz do Lizandro ·{' '}
-            <ExternalLink href="http://souldoughpizza.com">
-              Souldough
-            </ExternalLink>{' '}
-            · Workshop by Laura · Dinner Silvia + Laura
+            Foz do Lizandro ·{" "}
+            <ExternalLink href="https://www.google.com/maps?cid=2652984010305481937">
+              Mar de Latas
+            </ExternalLink>{" "}
+            · Self-care workshop · Dinner Silvia + Laura
           </span>
         </li>
         <li>
           <span>
-            Dune walk ·{' '}
-            <ExternalLink href="https://la-popular-taberna.business.site/">
-              Taberna La Popular
-            </ExternalLink>{' '}
-            · Workshop by Silvia · Dinner Carly + Mirha
+            Praia de São Julião ·{" "}
+            <ExternalLink href="https://www.google.com/maps?cid=9675229999809966912">
+              Tik Tapas
+            </ExternalLink>{" "}
+            · Minimalism workshop · Dinner Carly + Mirha
           </span>
         </li>
       </ol>
