@@ -16,9 +16,9 @@ export default function Home() {
         className="grid min-h-screen py-12 px-screen-10 bg-hero bg-cover lg:pl-screen-20"
       >
         <div className="content-start grid gap-y-3 text-right sm:content-center sm:gap-y-5">
-          <h2 className="text-lg font-medium tracking-widest text-gray-900 uppercase whitespace-nowrap sm:text-xl">
+          <p className="text-lg font-medium tracking-widest text-gray-900 uppercase whitespace-nowrap sm:text-xl">
             Reset Edition
-          </h2>
+          </p>
           <Menu />
         </div>
         <div className="tracking-wider text-gray-300">
