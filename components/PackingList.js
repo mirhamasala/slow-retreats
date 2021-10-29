@@ -14,6 +14,7 @@ const packingItems = [
   'raincoat',
   'walking sneakers or shoes',
   'yoga mat',
+  'your favorite pen',
   'a book (only Kindle or physical)',
 ];
 
