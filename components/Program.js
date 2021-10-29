@@ -63,8 +63,8 @@ function Program() {
         <li>
           <span>
             Foz do Lizandro ·{" "}
-            <ExternalLink href="https://www.google.com/maps?cid=2652984010305481937">
-              Mar de Latas
+            <ExternalLink href="https://www.google.com/maps?cid=8713197990665167363">
+              El Chilito
             </ExternalLink>{" "}
             · Self-care workshop · Dinner Silvia + Laura
           </span>

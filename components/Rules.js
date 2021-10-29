@@ -43,7 +43,7 @@ function Rules() {
           We won't take photos. To remember the retreat, we'll take four
           Polaroids each day at a place of our choosing.
         </li>
-        <li>We'll have lunch and dinner together.</li>
+        <li>We'll have lunch and dinner together during which there'll be one conversation.</li>
         <li>We'll try not to complain.</li>
       </ul>
     </Section>
