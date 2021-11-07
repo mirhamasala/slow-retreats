@@ -18,10 +18,9 @@ const packingItems = [
   'a book (only Kindle or physical)',
 ];
 
-const leaveHomeItems = [
+const providedItems = [
   'shampoo, conditioner, body soap',
   'towels',
-  'more than one book',
 ];
 
 function PackingList() {
@@ -41,10 +40,10 @@ function PackingList() {
         </ul>
 
         <h3 className="pb-2 text-xl text-gray-100 tracking-wider sm:pb-3  sm:text-2xl">
-          Not to bring
+          Will be provided
         </h3>
         <ul className="space-y-2">
-          {leaveHomeItems.map((item, index) => (
+          {providedItems.map((item, index) => (
             <li key={index} className="flex items-center">
               <MinusSmIcon className="h-4 pr-2" />
               {item}
