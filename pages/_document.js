@@ -8,7 +8,7 @@ class MyDocument extends Document {
 
   render() {
     return (
-      <Html className="smooth-scroll">
+      <Html lang="en" className="smooth-scroll">
         <Head>
           <link rel="icon" href="/favicon.ico" />
           <link
