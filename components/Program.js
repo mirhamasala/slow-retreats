@@ -22,8 +22,7 @@ function Program() {
       </h3>
       <ul className="mb-7 space-y-2 max-w-prose">
         <li>
-          07:00 – 08:30 Morning pages, gratefulness practice, yoga,
-          meditation—in silence
+          07:00 – 08:30 Meditation, yoga, morning pages, gratefulness practice—in silence
         </li>
         <li>08:30 – 09:30 Breakfast—in silence</li>
         <li>09:30 – 11:30 Silent beach walk</li>
