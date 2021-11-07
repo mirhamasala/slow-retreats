@@ -41,8 +41,8 @@ function Program() {
         <li>
           <span>
             São Lorenço ·{" "}
-            <ExternalLink href="https://www.google.com/maps?cid=908569003224039559">
-              Naval
+            <ExternalLink href="https://www.google.com/maps?cid=19492761283722315">
+              Onegai Sushi Bar
             </ExternalLink>{" "}
             · Ericeira · Flower workshop · Dinner Mirha + Silvia
           </span>
@@ -50,8 +50,8 @@ function Program() {
         <li>
           <span>
             Ribeira D'Ilhas ·{" "}
-            <ExternalLink href="https://www.google.com/maps?cid=19492761283722315">
-              Onegai Sushi Bar
+            <ExternalLink href="https://www.google.com/maps?cid=908569003224039559">
+              Naval
             </ExternalLink>{" "}
             · Introduction to{" "}
             <ExternalLink href="https://www.wimhofmethod.com/breathing-exercises">
@@ -62,11 +62,10 @@ function Program() {
         </li>
         <li>
           <span>
-            Foz do Lizandro ·{" "}
-            <ExternalLink href="https://www.google.com/maps?cid=8713197990665167363">
-              El Chilito
-            </ExternalLink>{" "}
-            · Self-care workshop · Dinner Silvia + Laura
+            Foz do Lizandro · Lunch Silvia + Laura · Self-care workshop ·{" "}
+            <ExternalLink href="https://www.google.com/maps?cid=2652984010305481937">
+              Mar das Latas Wine & Food
+            </ExternalLink>
           </span>
         </li>
         <li>
