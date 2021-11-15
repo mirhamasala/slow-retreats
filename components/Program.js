@@ -22,7 +22,8 @@ function Program() {
       </h3>
       <ul className="mb-7 space-y-2 max-w-prose">
         <li>
-          07:00 – 08:30 Meditation, yoga, morning pages, gratefulness practice—in silence
+          07:00 – 08:30 Meditation, yoga, morning pages, gratefulness
+          practice—in silence
         </li>
         <li>08:30 – 09:30 Breakfast—in silence</li>
         <li>09:30 – 11:30 Silent beach walk</li>
@@ -61,10 +62,11 @@ function Program() {
         </li>
         <li>
           <span>
-            Foz do Lizandro · Lunch Silvia + Laura · Self-care workshop ·{" "}
-            <ExternalLink href="https://www.google.com/maps?cid=2652984010305481937">
-              Mar das Latas Wine & Food
-            </ExternalLink>
+            Foz do Lizandro ·{" "}
+            <ExternalLink href="https://www.google.com/maps?cid=10455604447369111830">
+              A Bica
+            </ExternalLink>{" "}
+            · Self-care workshop · Dinner Silvia + Laura
           </span>
         </li>
         <li>
